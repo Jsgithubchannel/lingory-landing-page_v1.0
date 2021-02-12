@@ -9,6 +9,7 @@
 body {
   font-family: "yg-jalnan";
   height: 100%;
+  margin: 0;
 }
 
 .header-bar {
@@ -34,11 +35,17 @@ body {
 
   /* header */
   .header-bar {
-    padding: 5px 0;
+    padding: 5px 5px 0 5px;
+  }
+  .header-bar__logo {
+    width: 20%;
   }
   .header-bar__btn {
-    width: 5em;
-    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    height: 2em;
     border: none;
     border-radius: 10px;
     outline: none;
@@ -50,6 +57,9 @@ body {
   .header-bar__btn > p {
     display: none;
   }
+  .book-icon {
+    width: 80%;
+  }
   /* Section 1 */
   .content {
     display: flex;
@@ -58,31 +68,34 @@ body {
   }
   #main p {
     margin: 0;
+    font-size: 0.8rem;
     color: #757575;
     font-family: "Noto Sans", sans-serif;
   }
   h2 {
-    text-align: center;
     margin: 0;
+    font-size: 1.2rem;
     color: #9160ff;
+    text-align: center;
   }
   h3 {
-    margin-top: 1em;
+    margin-top: 0.5em;
+    font-size: 0.9rem;
     color: #333333;
   }
   .content-imgs {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 50%;
   }
   .play-store__btn {
-    width: 70%;
+    width: 60%;
     margin-right: 1em;
   }
   .app-store__btn {
-    width: 70%;
+    width: 60%;
   }
   .phone {
-    width: 90%;
+    width: 65%;
   }
 }

@@ -8,4 +8,17 @@
 
 body {
   font-family: "yg-jalnan";
+  height: 100%;
 }
+
+/* header {
+  margin: 0 5em;
+}
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-frame {
+  display: flex;
+  align-items: center;
+} */

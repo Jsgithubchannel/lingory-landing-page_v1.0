@@ -16,25 +16,27 @@
         <div class="swiper-wrapper">
             <header>
                 <div class="header-bar">
-                    <div class="logo-frame">
                         <img src="Asset\logo.png" alt="" class="header-bar__logo">
-                    </div>
                     <button class="header-bar__btn">
                         <img src="Asset\ico_book.png" alt="학습하러가기 icon" class="book-icon">
-                        학습하러가기
+                        <p>학습하러가기</p>
                     </button>
                 </div>
             </header>
             <div id="main" class="swiper-slide section">
                 <div class="container">
-                    <div class="content">
-                        <p>Give It A Try With Lingory</p>
-                        <h2>Do You Want To Learn How Native Speakers Talk?</h1>
+                    <div class="bg">
+                        <div class="content">
+                            <p>Give It A Try With Lingory</p>
+                            <h2>Do You Want To Learn <br />How Native Speakers Talk?</h2>
                             <h3>Fun & Deep Learning!</h3>
-                            <img src="Asset\Playsotre.png" alt="Playstore button" class="play-store__btn">
-                            <img src="Asset\Appstore.png" alt="Appstore button" class="app-store__btn">
+                            <div class="content-imgs">
+                                <img src="Asset\Playsotre.png" alt="Playstore button" class="play-store__btn">
+                                <img src="Asset\Appstore.png" alt="Appstore button" class="app-store__btn">
+                            </div>
+                        </div>
+                        <img src="Asset\w.phone.png" alt="phone" class="phone">
                     </div>
-                    <img src="Asset\w.phone.png" alt="phone" class="phone">
                 </div>
             </div>
             <div id="features" class="swiper-slide section">
@@ -87,19 +89,19 @@
                     <div class="team-frame">
                         <div class="team-frame__person">
                             <!-- 이미지 추가 -->
-                            <div class="person-circle"></div> 
+                            <div class="person-circle"></div>
                             <p class="person-circle__name">김성찬</p>
                             <p class="person-circle__position">CEO</p>
                             <!-- 이미지 추가2 -->
-                            <div class="person-circle"></div> 
+                            <div class="person-circle"></div>
                             <p class="person-circle__name">박유상</p>
                             <p class="person-circle__position">Developer</p>
                             <!-- 이미지 추가3 -->
-                            <div class="person-circle"></div> 
+                            <div class="person-circle"></div>
                             <p class="person-circle__name">김아린</p>
                             <p class="person-circle__position">Contents Creator</p>
                             <!-- 이미지 추가4 -->
-                            <div class="person-circle"></div> 
+                            <div class="person-circle"></div>
                             <p class="person-circle__name">최현슬</p>
                             <p class="person-circle__position">Contents Creator</p>
                         </div>
@@ -127,7 +129,7 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div> -->
     </div>
-    
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {

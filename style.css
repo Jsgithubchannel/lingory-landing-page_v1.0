@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+.section:nth-child(even) {
+  background: #9160ff;
+}
+
 .header-bar {
   display: flex;
   justify-content: space-between;
@@ -28,8 +32,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top 자바스크립트로 수정하기 */
-    margin-top: 3em;
+    margin-top: 0.5em;
     background: url("Asset/m.bg.png");
   }
 
@@ -96,6 +99,6 @@ body {
     width: 60%;
   }
   .phone {
-    width: 65%;
+    width: 70%;
   }
 }

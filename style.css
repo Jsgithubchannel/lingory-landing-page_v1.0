@@ -8,6 +8,7 @@
 
 body {
   font-family: "yg-jalnan";
+  font-size: 16px;
   height: 100%;
   margin: 0;
 }
@@ -38,7 +39,9 @@ body {
   /* header */
   .header-bar {
     height: 4em;
+    margin-bottom: 1.6em;
     padding: 0 1em;
+    border-bottom: 1px solid #eaebed;
   }
   .header-bar__logo {
     width: 7em;
@@ -79,20 +82,21 @@ body {
     font-family: "Noto Sans", sans-serif;
   }
   h2 {
-    margin: 0;
-    font-size: 1.2rem;
+    margin: 0.6em 0 0 0;
+    font-size: 1.25rem;
     color: #9160ff;
     text-align: center;
   }
   h3 {
-    margin-top: 0.5em;
-    font-size: 0.9rem;
+    margin: 1.4em 0 0 0;
+    font-size: 1.125rem;
     color: #333333;
   }
   .content-imgs {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 70%;
+    margin-top: 1.9em;
   }
   .play-store__btn {
     width: 60%;
@@ -117,20 +121,21 @@ body {
     z-index: 10;
   }
   .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: 92.7%;
+    bottom: 100%;
   }
   h1 {
-    color: white;
     margin: 0 5px;
+    color: white;
+    font-size: 1.5rem;
   }
   .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 20px;
-    padding: 10px 0;
-    border-radius: 30px;
+    margin: 0 1.25em 1em 1.25em;
+    height: 12em;
+    border-radius: 20px;
     background-color: white;
     box-shadow: 0px 4px 0px 0px rgb(102, 67, 184);
     -webkit-box-shadow: 0px 4px 0px 0px rgb(102, 67, 184);

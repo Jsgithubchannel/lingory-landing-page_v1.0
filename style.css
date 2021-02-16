@@ -28,11 +28,11 @@ body {
 }
 
 .fanfare {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 100%;
   background: url("Asset/m.bg.png");
 }
 
@@ -85,7 +85,7 @@ body {
   }
   #main p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #757575;
     font-family: "Noto Sans", sans-serif;
   }
@@ -94,16 +94,22 @@ body {
     font-size: 2rem;
     color: #9160ff;
     text-align: center;
+    line-height: 140%;
+  }
+  .highlight {
+    position: relative;
+    display: flex;
+    justify-content: center;
   }
   h3 {
     margin: 0.5rem 0 0 0;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #333333;
   }
   .underline {
     position: absolute;
-    top: 15.4rem;
-    width: 14rem;
+    bottom: 0.5rem;
+    width: 15.5rem;
     height: 0.5rem;
     background-color: #9160ff;
     opacity: 30%;

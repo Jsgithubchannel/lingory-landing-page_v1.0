@@ -125,28 +125,48 @@
                         <h1 class="title">Lingory Team</h1>
                         <div class="title-underline"></div>
                     </div>
-                    <div>링고리 팀은 학습자들의 재미있고 효과적인 학습을 위해 끊임없이 고민합니다.</div>
-                    <div class="team-frame">
-                        <div class="team-frame__person">
-                            <!-- 이미지 추가 -->
-                            <div class="person-circle"></div>
-                            <p class="person-circle__name">김성찬</p>
-                            <p class="person-circle__position">CEO</p>
-                            <!-- 이미지 추가2 -->
-                            <div class="person-circle"></div>
-                            <p class="person-circle__name">박유상</p>
-                            <p class="person-circle__position">Developer</p>
-                            <!-- 이미지 추가3 -->
-                            <div class="person-circle"></div>
-                            <p class="person-circle__name">김아린</p>
-                            <p class="person-circle__position">Contents Creator</p>
-                            <!-- 이미지 추가4 -->
-                            <div class="person-circle"></div>
-                            <p class="person-circle__name">최현슬</p>
-                            <p class="person-circle__position">Contents Creator</p>
+                    <div class="team-box">
+                        <div class="team-box__desc">링고리 팀은 학습자들의 재미있고 효과적인 학습을 위해 끊임없이 고민합니다.</div>
+                        <div class="team-box__person swiper-container-team">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <!-- 이미지 추가 -->
+                                    <div class="person-circle">
+                                        <img src="Asset/p1.jpg"class="person"></img>
+                                        <p class="person-circle__name">김성찬</p>
+                                        <p class="person-circle__position">CEO</p>
+                                    </div>
+                                    <!-- 이미지 추가2 -->
+                                    <div class="person-circle">
+                                        <img src="Asset/p2.jpg"class="person"></img>
+                                        <p class="person-circle__name">박유상</p>
+                                        <p class="person-circle__position">Developer</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- 이미지 추가3 -->
+                                    <div class="person-circle">
+                                        <img src="Asset/p3.jpg"class="person"></img>
+                                    <p class="person-circle__name">김아린</p>
+                                    <p class="person-circle__position">Contents Creator</p>
+                                </div>
+                                    <!-- 이미지 추가4 -->
+                                    <div class="person-circle">
+                                        <img src="Asset/p4.jpg"class="person"></img>
+        
+                                    <p class="person-circle__name">최현슬</p>
+                                    <p class="person-circle__position">Contents Creator</p>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination-team"></div>
                         </div>
                     </div>
-                    <h1>Contact Us</h1>
+                    <div class="title-box">
+                        <h1 class="title">Contact Us</h1>
+                        <div class="title-underline"></div>
+                    </div>
                     <p>지도 이미지</p>
                     <div class="info">
                         <span class="info-address">
@@ -186,6 +206,17 @@
         const horizontal = new Swiper('.swiper-container-v', {
             pagination: {
                 el: '.swiper-pagination-v',
+                type: 'bullets',
+            },
+            direction: 'horizontal',
+            spaceBetween: 50,
+            nested: true,
+
+            keyboard: true,
+        })
+        const teamHorizontal = new Swiper('.swiper-container-team', {
+            pagination: {
+                el: '.swiper-pagination-team',
                 type: 'bullets',
             },
             direction: 'horizontal',

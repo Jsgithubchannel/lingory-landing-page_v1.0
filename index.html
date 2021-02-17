@@ -41,8 +41,8 @@
                         <img src="Asset\w.phone@2x.png" alt="phone" class="phone">
                         <div class="background">
                             <div class="background-purple">
-                            <img src="Asset\ico_scroll@2x.png" alt="scroll" class="scroll-icon">
-                            <span class="scroll-span">SCROLL</span>
+                                <img src="Asset\ico_scroll@2x.png" alt="scroll" class="scroll-icon">
+                                <span class="scroll-span">SCROLL</span>
                             </div>
                         </div>
                     </div>
@@ -50,55 +50,77 @@
             </div>
             <div id="features" class="swiper-slide section">
                 <div class="container swiper-container-v">
-                    <h1>Features</h1>
+                    <div class="title-box">
+                        <h1 class="title">Features</h1>
+                        <div class="title-underline"></div>
+                    </div>
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide cards">
                             <ul class="card">
                                 <img src="Asset\ico_goal.png" alt="goal icon">
-                                <p class="title">Goal Suggestion (목표제시)</p>
-                                <p class="desc">링고리에서 제공하는 동기부여를 경험하세요.</p>
-                            </ul>
-                            <ul class="card">
-                                <img src="Asset\ico_study.png" alt="study icon">
-                                <p class="title">Expert Curriculam (전문적인 교육 과정)</p>
-                                <p class="desc">외국인 학생들을 가르쳐 본 강사들에 의해 제작 된 잘 구성된 학습 프로세스를 경험</p>
+                                <div class="card-text">
+                                    <p class="icon-title">Goal Suggestion (목표제시)</p>
+                                    <p class="icon-desc">링고리에서 제공하는 동기부여를 경험하세요.</p>
+                                    <div class="card-text">
                             </ul>
                             <ul class="card">
                                 <img src="Asset\ico_video.png" alt="video icon">
-                                <p class="title">Video Contents (영상 컨텐츠)</p>
-                                <p class="desc">학습자들의 관심사를 기반으로 한 동영상을 통해 어휘와 문법을 복습합니다. </p>
+                                <div class="card-text">
+                                    <p class="icon-title">Video Contents (영상 컨텐츠)</p>
+                                    <p class="icon-desc">학습자들의 관심사를 기반으로 한 동영상을 통해<br /> 어휘와 문법을 복습합니다. </p>
+                                </div>
+                            </ul>
+                            <ul class="card">
+                                <img src="Asset\ico_brain.png" alt="brain icon">
+                                <div class="card-text">
+                                    <p class="icon-title">Learning Stack (학습 축적)</p>
+                                    <p class="icon-desc">학습한 내용은 계속 반복적으로 사용함으로써<br /> 학습자의 기억 속에 남을 것입니다.</p>
+                                </div>
                             </ul>
                         </div>
                         <div class="swiper-slide">
                             <ul class="card">
                                 <img src="Asset\ico_speak.png" alt="speak icon">
-                                <p class="title">Native Audio (원어민 음성)</p>
-                                <p class="desc">정확한 발음을 가진 방송인이 녹음한 음성과 함께 학습하세요.</p>
+                                <div class="card-text">
+                                    <p class="icon-title">Native Audio (원어민 음성)</p>
+                                    <p class="icon-desc">정확한 발음을 가진 방송인이 녹음한 음성과 함께 학습하세요.</p>
+                                </div>
                             </ul>
                             <ul class="card">
-                                <img src="Asset\ico_brain.png" alt="brain icon">
-                                <p class="title">Learning Stack (학습 축적)</p>
-                                <p class="desc">학습한 내용은 계속 반복적으로 사용함으로써 학습자의 기억 속에 남을 것입니다.</p>
+                                <img src="Asset\ico_study.png" alt="study icon">
+                                <div class="card-text">
+                                    <p class="icon-title">Expert Curriculam (전문적인 교육 과정)</p>
+                                    <p class="icon-desc">외국인 학생들을 가르쳐 본 강사들에 의해 제작 된 잘 구성된 학습 프로세스를 경험</p>
+                                </div>
                             </ul>
                             <ul class="card">
                                 <img src="Asset\ico_tools.png" alt="tools icon">
-                                <p class="title">Learning Tools (학습 도구들)</p>
-                                <p class="desc">링고리에서 제공하는 학습에 필요한 다양한 기능들을 경험해보세요.</p>
+                                <div class="card-text">
+                                    <p class="icon-title">Learning Tools (학습 도구들)</p>
+                                    <p class="icon-desc">링고리에서 제공하는 학습에 필요한 다양한 기능들을 경험해보세요.</p>
+                                </div>
                             </ul>
                         </div>
                     </div>
+                    <!-- Add Pagination -->
                     <div class="swiper-pagination-v"></div>
                 </div>
             </div>
             <div id="howToUse" class="swiper-slide section">
                 <div class="container">
-                    <h1>How To Use?</h1>
+                    <div class="title-box">
+                        <h1 class="title">How To Use?</h1>
+                        <div class="title-underline"></div>
+                    </div>
                     <div>Video</div>
                 </div>
             </div>
             <div id="team" class="swiper-slide section">
                 <div class="container">
-                    <h1>Lingory Team</h1>
+                    <div class="title-box">
+                        <h1 class="title">Lingory Team</h1>
+                        <div class="title-underline"></div>
+                    </div>
                     <div>링고리 팀은 학습자들의 재미있고 효과적인 학습을 위해 끊임없이 고민합니다.</div>
                     <div class="team-frame">
                         <div class="team-frame__person">
@@ -160,11 +182,13 @@
         const horizontal = new Swiper('.swiper-container-v', {
             pagination: {
                 el: '.swiper-pagination-v',
+                type: 'bullets',
             },
             direction: 'horizontal',
             spaceBetween: 50,
-            nested: true
+            nested: true,
 
+            keyboard: true,
         })
     </script>
 </body>

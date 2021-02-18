@@ -86,7 +86,7 @@ body {
   }
   #main p {
     margin: 0;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans CJK KR", sans-serif;
     font-size: 1.1rem;
     color: #757575;
   }
@@ -160,7 +160,7 @@ body {
     font-size: 1.1rem;
     color: white;
     transform: translateY(17rem);
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans CJK KR", sans-serif;
   }
 
   /* Section 2, 3 & 4 */
@@ -225,7 +225,7 @@ body {
     /* margin-top: 2.5rem; */
   }
   .card p {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans CJK KR", sans-serif;
     text-align: center;
   }
   .icon-title {
@@ -259,7 +259,7 @@ body {
   /* Section 4 */
   .team-box {
     margin: 0 2rem;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Noto Sans CJK KR", sans-serif;
     font-weight: 400;
     color: white;
   }
@@ -270,8 +270,30 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .team-box .swiper-slide {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0;
+  }
+
   .person-circle {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .person-circle p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .person-circle__name {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .person-circle__position {
+    margin-top: 0.6rem;
+    font-size: 1.3rem;
+    font-weight: normal;
   }
   .person {
     width: 7rem;

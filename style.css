@@ -257,6 +257,12 @@ body {
   }
 
   /* Section 4 */
+  /* Lingory Team */
+
+  /* title-box margin 전체 바꾸기!! */
+  #team .title-box {
+    margin: 0.5rem 2rem;
+  }
   .team-box {
     margin: 0 2rem;
     font-family: "Noto Sans CJK KR", sans-serif;
@@ -273,7 +279,7 @@ body {
   .team-box .swiper-slide {
     display: flex;
     justify-content: space-around;
-    margin: 4rem 0;
+    margin: 0.5rem 0;
   }
 
   .person-circle {
@@ -303,6 +309,56 @@ body {
   .swiper-pagination-team {
     display: flex;
     justify-content: center;
+  }
+
+  /* Contact Us */
+  .map-box {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .map-pin {
+    position: absolute;
+    top: 8.5rem;
+    left: 14rem;
+    width: 2.966rem;
+    height: 4.313rem;
+  }
+  .map {
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  .info-address {
+    display: flex;
+    align-items: center;
+  }
+  .info-address__box {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-address__box img {
+    margin-bottom: 0.5rem;
+    width: 8rem;
+    height: 1.4rem;
+  }
+  .info-address__box p {
+    margin: 0;
+    font-family: "Noto Sans CJK KR", sans-serif;
+    color: #e5dcf9;
+  }
+  .info-email {
+    display: flex;
+    align-items: center;
+  }
+  .info-email span {
+    font-family: "Noto Sans CJK KR", sans-serif;
+    color: #e5dcf9;
+    text-decoration: underline;
+  }
+  .map-icon,
+  .mail-icon {
+    margin: 1rem 1rem 0.5rem 1.875rem;
   }
 }
 

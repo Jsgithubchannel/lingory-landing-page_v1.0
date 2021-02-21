@@ -9,7 +9,7 @@
 html,
 body {
   font-family: "yg-jalnan";
-  font-size: 16px;
+  font-size: 62.5%;
   height: 100%;
   margin: 0;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 /* mobile */
-@media (min-width: 320px) {
+@media (min-width: 20em) {
   html {
     font-size: 30%;
   }
@@ -372,61 +372,27 @@ body {
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+/* Iphone X */
+@media only screen and (min-width: 23em) {
   html {
     font-size: 62.5%;
   }
+
   .card {
     height: 15rem;
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+/* IPhone8 */
+@media only screen and (device-width: 23.4375em) and (device-height: 41.6875em) {
   html {
     font-size: 45%;
   }
 }
 
-@media only screen and (device-width: 414px) {
+/* IPhone8+ */
+@media only screen and (min-width: 25em) {
   html {
     font-size: 50%;
-  }
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 576px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 44px;
-  }
-
-  .container {
-    max-width: 1024px;
-  }
-
-  .header-bar {
-    padding: 1.8em 1.9em;
-  }
-  .header-bar__btn {
-    width: 12em;
-  }
-  .book-icon {
-    margin-right: 0.6em;
-  }
-
-  .header-bar__btn > span {
-    display: inline;
-    font-size: 0.9rem;
-    color: white;
   }
 }

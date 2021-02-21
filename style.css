@@ -330,13 +330,6 @@ body {
     width: 90%;
     margin: 0 auto;
   }
-  .map-pin {
-    position: absolute;
-    top: 18.5rem;
-    left: 26rem;
-    width: 2.966rem;
-    height: 4.313rem;
-  }
   .map {
     width: 100%;
     border-radius: 10px;
@@ -385,29 +378,17 @@ body {
   .card {
     height: 15rem;
   }
-  .map-pin {
-    top: 8.5rem;
-    left: 14rem;
-  }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
   html {
     font-size: 45%;
   }
-  .map-pin {
-    top: 13.5rem;
-    left: 20rem;
-  }
 }
 
 @media only screen and (device-width: 414px) {
   html {
     font-size: 50%;
-  }
-  .map-pin {
-    top: 13.5rem;
-    left: 19.5rem;
   }
 }
 

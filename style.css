@@ -442,10 +442,10 @@ body {
     transform: translateY(17rem);
   }
   .card {
-    height: 19rem;
+    height: 15rem;
   }
   .card img {
-    width: 20%;
+    width: 15%;
   }
   .swiper-container-v > .swiper-pagination-v {
     bottom: 4rem;
@@ -459,6 +459,12 @@ body {
 @media only screen and (min-width: 25em) {
   html {
     font-size: 50%;
+  }
+  .card {
+    height: 19rem;
+  }
+  .card img {
+    width: 20%;
   }
   .info-box {
     margin-top: 30px;

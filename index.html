@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="index.js" defer></script> -->
     <title>LINGORY-Learn How Native Speakers Talk</title>
 </head>
 
 <body>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div id="main" class="swiper-slide section">
+            <section id="main" class="swiper-slide">
                 <header>
                     <div class="header-bar">
                         <img src="Asset\logo@2x.png" alt="" class="header-bar__logo">
@@ -47,8 +46,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="features" class="swiper-slide section">
+            </section>
+            <section id="features" class="swiper-slide">
                 <div class="container swiper-container-v">
                     <div class="title-box">
                         <h1 class="title">Features</h1>
@@ -105,8 +104,8 @@
                     <!-- Add Pagination -->
                     <div class="swiper-pagination-v"></div>
                 </div>
-            </div>
-            <div id="howToUse" class="swiper-slide section">
+            </section>
+            <section id="howToUse" class="swiper-slide">
                 <div class="container">
                     <div class="title-box">
                         <h1 class="title">How To Use?</h1>
@@ -118,8 +117,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="team" class="swiper-slide section">
+            </section>
+            <section id="team" class="swiper-slide">
                 <div class="container">
                     <div class="title-box">
                         <h1 class="title">Lingory Team</h1>
@@ -166,31 +165,45 @@
                         <h1 class="title">Contact Us</h1>
                         <div class="title-underline"></div>
                     </div>
-                        <div class="map-box">
-                            <img src="Asset/map.svg" alt="map" class="map">
-                            <div class="info-box">
-                                <div class="info-address">
-                                    <img src="Asset/ico_map.png" alt="map 아이콘" class="map-icon">
-                                    <div class="info-address__box">
-                                        <img src="Asset/w.logo@2x.png" alt="링고리 로고">
-                                        <p>부산 백양대로 1163 청양빌딩 7층</p>
-                                    </div>
-                                </div>
-                                <div class="info-email">
-                                    <img src="Asset/ico_mail.png" alt="mail 아이콘" class="mail-icon">
-                                    <span>bnd01318@gmail.com</span>
+                    <div class="map-box">
+                        <img src="Asset/map@2x.png" alt="map" class="map">
+                        <div class="info-box">
+                            <div class="info-address">
+                                <img src="Asset/ico_map.png" alt="map 아이콘" class="map-icon">
+                                <div class="info-address__box">
+                                    <img src="Asset/w.logo@2x.png" alt="링고리 로고">
+                                    <p>부산 백양대로 1163 청양빌딩 7층</p>
                                 </div>
                             </div>
-                       
+                            <div class="info-email">
+                                <img src="Asset/ico_mail.png" alt="mail 아이콘" class="mail-icon">
+                                <span>bnd01318@gmail.com</span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <footer>
-                    <img src="" alt="링고리 로고">
-                    <p>상호명 : 링고리|대표 : 김성찬|사업자등록번호 : </p>
-                    <p>부산 백양대로 1163 청양빌딩 7층</p>
-                    <p class="copyright">Copyright 2021. 000. All Right Reserved.</p>
-                </footer>
+            </section>
+            <section id="footer" class="swiper-slide">
+                <div class="fanfare">
+                <img src="Asset/img_clear.svg" alt="링고리 캐릭터" class="character">
+                <div class="footer-container">
+                    <div class="menu-box">
+                        <a href="#main" class="menu" >main</a>
+                        <a href="#features" class="menu">features</a>
+                        <a href="#howToUse" class="menu">how to use</a>
+                        <a href="#team" class="menu">team</a>
+                    </div>
+                    <div class="footer-box">
+                        <img src="Asset/f.logo@2x.png" alt="링고리 로고" class="footer-box__img">
+                        <p>상호명 : 링고리 | 대표 : 김성찬 | 사업자등록번호 : </p>
+                        <p>주소 : 부산 백양대로 1163 청양빌딩 7층</p>
+                        <div class="footer-box__copyright">Copyright 2021. 000. All Right Reserved.</div>
+                    </div>
+                </div>
             </div>
+
+            </section>
         </div>
         <div class="swiper-pagination"></div>
     </div>
@@ -216,8 +229,6 @@
                 type: 'bullets',
             },
             direction: 'horizontal',
-            spaceBetween: 50,
-            nested: true,
 
             keyboard: true,
         })
@@ -233,6 +244,7 @@
             keyboard: true,
         })
     </script>
+    <script src="index.js"></script>
 </body>
 
 </html>

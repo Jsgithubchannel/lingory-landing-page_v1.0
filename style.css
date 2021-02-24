@@ -327,6 +327,7 @@ body {
     align-items: center;
   }
   .map-box {
+    content: url("Asset/p.map@2x.png");
     position: relative;
     width: 90%;
     margin: 0 auto;
@@ -542,12 +543,37 @@ body {
     justify-content: space-around;
     margin-right: 0 !important;
   }
+  .team-box__desc {
+    font-size: 1.8rem;
+  }
+  .team-box__person {
+    margin: 8rem 0;
+  }
+  .map-box {
+    content: url("Asset/t.map@2x.png");
+    margin: 3rem;
+  }
   .map {
     margin: 0 auto;
   }
   .info-box {
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .character {
+    transform: translateY(-12em);
+  }
+  .menu-box {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer-box p {
+    font-size: 1.3rem;
+  }
+  .footer-box__copyright {
+    margin-top: 9rem;
+    font-size: 1.3rem;
   }
 }
 

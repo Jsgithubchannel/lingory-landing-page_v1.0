@@ -489,34 +489,32 @@ body {
     background: url("Asset/m.bg.png");
   }
   #main p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   h2 {
-    font-size: 2.4rem;
+    font-size: 5rem;
   }
   h3 {
-    font-size: 1.8rem;
+    font-size: 4rem;
   }
   .highlight > .underline {
     bottom: 0.7rem;
+  }
+  .phone {
+    width: 39rem;
+    height: 69.2rem;
+  }
+  .scroll-icon {
+    transform: translateY(10.5rem);
+  }
+  .scroll-span {
+    font-size: 1.5rem;
+    transform: translateY(16rem);
   }
   .play-store__btn,
   .app-store__btn {
     width: 15rem;
     height: 4.5rem;
-  }
-
-  .phone {
-    width: 38rem;
-    height: 67.2rem;
-    transform: translateY(10%);
-  }
-  .scroll-icon {
-    transform: translateY(7.5rem);
-  }
-  .scroll-span {
-    font-size: 1.5rem;
-    transform: translateY(13rem);
   }
 
   .title-box {

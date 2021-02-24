@@ -488,11 +488,25 @@ body {
   .fanfare {
     background: url("Asset/m.bg.png");
   }
+  #main p {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
   .highlight > .underline {
     bottom: 0.7rem;
   }
+  .play-store__btn,
+  .app-store__btn {
+    width: 15rem;
+    height: 4.5rem;
+  }
   .phone {
-    width: 50%;
+    width: 45%;
   }
   .scroll-icon {
     transform: translateY(9.5rem);

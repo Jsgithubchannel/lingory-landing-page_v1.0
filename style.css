@@ -507,6 +507,7 @@ body {
   }
   .phone {
     width: 45%;
+    transform: translateY(0);
   }
   .scroll-icon {
     transform: translateY(9.5rem);

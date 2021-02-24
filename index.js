@@ -9,13 +9,23 @@ function menuAnchor() {
 
 function removePagination() {
   if (window.screen.width >= 768) {
-    const mobile_container = document.querySelector("#for-mobile");
-    const pagination_v = mobile_container.querySelector(".swiper-pagination-v");
-    const cards = mobile_container.querySelectorAll(".cards");
+    const mobile_container = document.querySelectorAll("#for-mobile");
+    const pagination = [
+      mobile_container[0].querySelector(".swiper-pagination-v"),
+      mobile_container[1].querySelector(".swiper-pagination-team"),
+    ];
+    const groups = [
+      mobile_container[0].querySelectorAll(".cards"),
+      mobile_container[1].querySelectorAll(".persons"),
+    ];
 
-    mobile_container.classList.remove("swiper-container-v");
-    pagination_v.remove();
-    cards.forEach((item) => item.classList.remove("swiper-slide"));
+    mobile_container.forEach((item) =>
+      item.classList.remove("swiper-container-v")
+    );
+    pagination.forEach((bullets) => bullets.remove());
+    groups.forEach((group) =>
+      group.forEach((elem) => elem.classList.remove("swiper-slide"))
+    );
   }
 }
 

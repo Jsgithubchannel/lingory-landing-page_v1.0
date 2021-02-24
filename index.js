@@ -26,12 +26,25 @@ function removePagination() {
     groups.forEach((group) =>
       group.forEach((elem) => elem.classList.remove("swiper-slide"))
     );
+    groups[1].forEach((persons) => persons.classList.add("justify-persons"));
+    // 한 줄로 정렬
+  }
+}
+
+function addMarginLeft() {
+  if (window.screen.width < 768) {
+    const mapBoxMargin = document
+      .querySelector(".map-box")
+      .getBoundingClientRect().left;
+    const infoBox = document.querySelector(".info-box");
+    infoBox.style.marginLeft = `${mapBoxMargin}px`;
   }
 }
 
 function init() {
   removePagination();
   menuAnchor();
+  addMarginLeft();
 }
 
 init();

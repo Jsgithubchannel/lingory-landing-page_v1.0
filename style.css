@@ -505,10 +505,11 @@ body {
     width: 15rem;
     height: 4.5rem;
   }
+
   .phone {
     width: 38rem;
     height: 67.2rem;
-    transform: translateY(-2rem);
+    transform: translateY(10%);
   }
   .scroll-icon {
     transform: translateY(7.5rem);
@@ -619,15 +620,9 @@ body {
     .highlight > .underline {
       bottom: 0.7rem;
     }
-    .play-store__btn,
-    .app-store__btn {
-      width: 21rem;
-      height: 6.2rem;
-    }
     .phone {
       width: 39rem;
       height: 69.2rem;
-      transform: translateY(-1rem);
     }
     .scroll-icon {
       transform: translateY(10.5rem);

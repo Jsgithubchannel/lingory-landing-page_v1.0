@@ -506,15 +506,16 @@ body {
     height: 4.5rem;
   }
   .phone {
-    width: 40%;
-    transform: translateY(6rem);
+    width: 38rem;
+    height: 67.2rem;
+    transform: translateY(-2rem);
   }
   .scroll-icon {
-    transform: translateY(17.5rem);
+    transform: translateY(7.5rem);
   }
   .scroll-span {
     font-size: 1.5rem;
-    transform: translateY(23rem);
+    transform: translateY(13rem);
   }
 
   .title-box {
@@ -598,8 +599,42 @@ body {
   }
 }
 
-/* @media only screen and (min-width: 64em) {
-  .title-box {
+@media only screen and (min-width: 64em) {
+  /* .title-box {
     margin: 10rem 0 10rem 3rem;
+  } */
+  @media only screen and (min-width: 64em) {
+    /* .title-box {
+      margin: 10rem 0 10rem 3rem;
+    } */
+    #main p {
+      font-size: 2.5rem;
+    }
+    h2 {
+      font-size: 5rem;
+    }
+    h3 {
+      font-size: 4rem;
+    }
+    .highlight > .underline {
+      bottom: 0.7rem;
+    }
+    .play-store__btn,
+    .app-store__btn {
+      width: 21rem;
+      height: 6.2rem;
+    }
+    .phone {
+      width: 39rem;
+      height: 69.2rem;
+      transform: translateY(-1rem);
+    }
+    .scroll-icon {
+      transform: translateY(10.5rem);
+    }
+    .scroll-span {
+      font-size: 1.5rem;
+      transform: translateY(16rem);
+    }
   }
-} */
+}

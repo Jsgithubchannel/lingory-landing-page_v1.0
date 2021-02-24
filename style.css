@@ -506,15 +506,15 @@ body {
     height: 4.5rem;
   }
   .phone {
-    width: 30%;
-    transform: translateY(0);
+    width: 40%;
+    transform: translateY(6rem);
   }
   .scroll-icon {
-    transform: translateY(9.5rem);
+    transform: translateY(17.5rem);
   }
   .scroll-span {
     font-size: 1.5rem;
-    transform: translateY(15rem);
+    transform: translateY(23rem);
   }
 
   .title-box {

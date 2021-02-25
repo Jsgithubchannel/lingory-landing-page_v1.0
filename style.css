@@ -504,6 +504,10 @@ body {
     width: 45%;
     transform: translateY(0);
   }
+  .background-purple {
+    transform: translateY(-150px);
+  }
+
   .scroll-icon {
     transform: translateY(10.5rem);
   }

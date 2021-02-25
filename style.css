@@ -508,7 +508,7 @@ body {
     position: absolute;
     bottom: 0;
     /* height: 220px; */
-    height: 22rem;
+    height: 22%;
   }
   .background-purple {
     transform: translateY(0);
@@ -607,7 +607,7 @@ body {
     font-size: 70%;
   }
   .background {
-    height: 20rem;
+    height: 22%;
   }
 }
 
@@ -639,6 +639,6 @@ body {
   }
   .background {
     /* height: 300px; */
-    height: 28rem;
+    height: 24%;
   }
 }

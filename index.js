@@ -31,20 +31,32 @@ function removePagination() {
   }
 }
 
-function addMarginLeft() {
+function addMargin() {
   if (window.screen.width < 768) {
     const mapBoxMargin = document
       .querySelector(".map-box")
       .getBoundingClientRect().left;
     const infoBox = document.querySelector(".info-box");
+
     infoBox.style.marginLeft = `${mapBoxMargin}px`;
+  }
+  if (window.screen.width >= 1024) {
+    //pc버전
+    const pcContainerMargin = document
+      .querySelector(".pc-container")
+      .getBoundingClientRect().left;
+    const headerBarLogo = document.querySelector(".header-bar__logo");
+    const headerBarBtn = document.querySelector(".header-bar__btn");
+
+    headerBarLogo.style.marginLeft = `${pcContainerMargin}px`;
+    headerBarBtn.style.marginRight = `${pcContainerMargin}px`;
   }
 }
 
 function init() {
   removePagination();
   menuAnchor();
-  addMarginLeft();
+  addMargin();
 }
 
 init();

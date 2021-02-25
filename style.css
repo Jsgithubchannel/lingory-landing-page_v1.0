@@ -591,42 +591,37 @@ body {
   }
 }
 
-@media only screen and (min-width: 52em) {
+/* @media only screen and (min-width: 52em) {
   html {
     font-size: 70%;
   }
-}
+} */
 
-@media only screen and (min-width: 64em) {
-  /* .title-box {
+/* @media only screen and (min-width: 64em) {
+  .title-box {
     margin: 10rem 0 10rem 3rem;
-  } */
-  @media only screen and (min-width: 64em) {
-    /* .title-box {
-      margin: 10rem 0 10rem 3rem;
-    } */
-    #main p {
-      font-size: 2.5rem;
-    }
-    h2 {
-      font-size: 5rem;
-    }
-    h3 {
-      font-size: 4rem;
-    }
-    .highlight > .underline {
-      bottom: 0.7rem;
-    }
-    .phone {
-      width: 39rem;
-      height: 69.2rem;
-    }
-    .scroll-icon {
-      transform: translateY(10.5rem);
-    }
-    .scroll-span {
-      font-size: 1.5rem;
-      transform: translateY(16rem);
-    }
   }
-}
+  #main p {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+  .highlight > .underline {
+    bottom: 0.7rem;
+  }
+  .phone {
+    width: 39rem;
+    height: 69.2rem;
+  }
+  .scroll-icon {
+    transform: translateY(10.5rem);
+  }
+  .scroll-span {
+    font-size: 1.5rem;
+    transform: translateY(16rem);
+  }
+} */

@@ -606,8 +606,12 @@ body {
   html {
     font-size: 70%;
   }
+  .highlight > .underline {
+    bottom: 0.9rem;
+    height: 0.5rem;
+  }
   .background {
-    height: 22%;
+    height: 23%;
   }
 }
 

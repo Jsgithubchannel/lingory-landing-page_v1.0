@@ -471,7 +471,7 @@ body {
 }
 
 /* Tablets */
-@media only screen and (min-width: 47em) {
+@media only screen and (min-width: 40em) {
   html {
     font-size: 62.5%;
   }
@@ -507,7 +507,7 @@ body {
   .background {
     position: absolute;
     bottom: 0;
-    height: 300px;
+    height: 220px;
   }
   .background-purple {
     transform: translateY(0);
@@ -605,9 +605,12 @@ body {
   html {
     font-size: 70%;
   }
+  .background {
+    height: 240px;
+  }
 }
 
-/* @media only screen and (min-width: 64em) {
+@media only screen and (min-width: 64em) {
   .title-box {
     margin: 10rem 0 10rem 3rem;
   }
@@ -615,23 +618,25 @@ body {
     font-size: 2.5rem;
   }
   h2 {
-    font-size: 5rem;
-  }
-  h3 {
     font-size: 4rem;
   }
+  h3 {
+    font-size: 3rem;
+  }
   .highlight > .underline {
-    bottom: 0.7rem;
+    bottom: 1.5rem;
+    height: 1.5rem;
+  }
+  .play-store__btn,
+  .app-store__btn {
+    width: 17rem;
+    height: 5.5rem;
   }
   .phone {
     width: 39rem;
     height: 69.2rem;
   }
-  .scroll-icon {
-    transform: translateY(10.5rem);
+  .background {
+    height: 300px;
   }
-  .scroll-span {
-    font-size: 1.5rem;
-    transform: translateY(16rem);
-  }
-} */
+}

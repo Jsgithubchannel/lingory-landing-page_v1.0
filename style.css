@@ -471,7 +471,7 @@ body {
 }
 
 /* Tablets */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 47em) {
   html {
     font-size: 62.5%;
   }
@@ -502,6 +502,7 @@ body {
   }
   .phone {
     width: 45%;
+    transform: translateY(0);
   }
   .scroll-icon {
     transform: translateY(10.5rem);
@@ -591,11 +592,11 @@ body {
   }
 }
 
-/* @media only screen and (min-width: 52em) {
+@media only screen and (min-width: 52em) {
   html {
     font-size: 70%;
   }
-} */
+}
 
 /* @media only screen and (min-width: 64em) {
   .title-box {

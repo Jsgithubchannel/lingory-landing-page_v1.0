@@ -721,11 +721,15 @@ body {
   }
 
   /* Section4 */
+
   #team .pc-container {
     margin-top: 6rem;
   }
   .team-box__person {
     margin: 6rem 0;
+  }
+  .map-box {
+    content: url("Asset/w.map@2x.png");
   }
 
   /* Section5 */

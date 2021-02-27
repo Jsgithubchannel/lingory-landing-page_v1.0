@@ -66,6 +66,7 @@ body {
     box-shadow: 0px 3px 0px 0px rgb(102, 67, 184);
     -webkit-box-shadow: 0px 3px 0px 0px rgb(102, 67, 184);
     -moz-box-shadow: 0px 3px 0px 0px rgb(102, 67, 184);
+    cursor: pointer;
   }
   .header-bar__btn:active {
     background-color: #8056e4;
@@ -121,14 +122,16 @@ body {
     width: 70%;
     margin-top: 1.5rem;
   }
-  .play-store__btn {
-    width: 12rem;
-    height: 3.5rem;
-    margin-right: 1rem;
-  }
+
+  .play-store__btn,
   .app-store__btn {
     width: 12rem;
     height: 3.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  .play-store__btn {
+    margin-right: 1rem;
   }
   .phone {
     width: 55%;

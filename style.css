@@ -572,7 +572,6 @@ body {
   }
   .map-box {
     content: url("Asset/t.map@2x.png");
-    margin: 3rem;
   }
   .map {
     margin: 0 auto;

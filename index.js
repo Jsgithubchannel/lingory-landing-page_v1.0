@@ -53,10 +53,18 @@ function addMargin() {
   }
 }
 
+function clickStudyBtn() {
+  const studyBtn = document.querySelector(".header-bar__btn");
+  studyBtn.addEventListener("click", () => {
+    alert("We are currently preparing the website.");
+  });
+}
+
 function init() {
   removePagination();
   menuAnchor();
   addMargin();
+  clickStudyBtn();
 }
 
 init();

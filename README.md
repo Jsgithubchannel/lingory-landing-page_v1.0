@@ -7,4 +7,6 @@
 4. Lingory Team & Contact Us
 5. Footer
 
-*Copyright 2021. Lingory. All Right Reserved.*
+*Lingory App(not updated yet) https://play.google.com/store/apps/details?id=org.languageapp.lingory*
+
+*Copyright 2021. Lingory. All Rights Reserved.*

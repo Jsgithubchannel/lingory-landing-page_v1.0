@@ -1,4 +1,4 @@
-#H1,Lingory Landing Page
+<h1>Lingory Landing Page</h1>
 
 **It has 5 sections**
 1. Main

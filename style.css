@@ -930,8 +930,19 @@ body {
     width: 20%;
   }
 }
-@media only screen and (min-width: 114em) {
+@media only screen and (min-width: 90em) {
+  html {
+    font-size: 50%;
+  }
+  .pc-container {
+    max-width: 1440px;
+  }
+}
+@media only screen and (min-width: 118em) {
   html {
     font-size: 62.5%;
+  }
+  .pc-container {
+    max-width: 1880px;
   }
 }

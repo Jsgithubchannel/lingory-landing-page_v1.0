@@ -924,6 +924,10 @@ body {
   .team-box__person {
     margin: 6rem 0;
   }
+  .person {
+    width: 9rem;
+    height: 9rem;
+  }
   .map-box {
     content: url("Asset/w.map@2x.png");
   }
@@ -931,6 +935,19 @@ body {
   /* Section5 */
   .character {
     width: 20%;
+  }
+  .menu-box a {
+    font-size: 2rem;
+  }
+  .footer-box__img {
+    width: 14rem;
+    height: 2.5rem;
+  }
+  .footer-box p {
+    font-size: 2.3rem;
+  }
+  .footer-box__copyright {
+    font-size: 2.3rem;
   }
 }
 @media only screen and (min-width: 90em) {

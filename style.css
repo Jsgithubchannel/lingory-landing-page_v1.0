@@ -817,6 +817,11 @@ body {
   html {
     font-size: 40%;
   }
+
+  .swiper-pagination-bullet {
+    background-color: #2f0b83c0;
+  }
+
   .header-bar {
     height: 10rem;
   }

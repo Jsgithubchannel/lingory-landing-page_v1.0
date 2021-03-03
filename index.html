@@ -209,8 +209,8 @@
 
             </section>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
-    <div class="swiper-pagination"></div>
     </div>
     <!-- Swiper Plugin -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -222,8 +222,13 @@
             fadeEffect: {
                 crossFade: true
             },
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
+            
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            // pagination: '.swiper-pagination',
+            // paginationClickable: true,
 
             // preventClicks: false,
             // preventClicksPropagation: false,

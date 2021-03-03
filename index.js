@@ -6,7 +6,6 @@ function menuAnchor() {
     item.addEventListener("click", () => swiper.slideTo(index, speed));
   });
 }
-
 function removePagination() {
   if (window.screen.width >= 768) {
     const mobile_container = document.querySelectorAll("#for-mobile");
@@ -30,7 +29,6 @@ function removePagination() {
     // 한 줄로 정렬
   }
 }
-
 function addMargin() {
   if (window.screen.width < 768) {
     const mapBoxMargin = document
@@ -52,7 +50,6 @@ function addMargin() {
     headerBarBtn.style.marginRight = `${pcContainerMargin}px`;
   }
 }
-
 function clickStudyBtn() {
   const studyBtn = document.querySelector(".header-bar__btn");
   studyBtn.addEventListener("click", () => {

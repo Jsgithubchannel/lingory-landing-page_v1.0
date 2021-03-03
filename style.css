@@ -912,6 +912,9 @@ body {
   .title-underline {
     bottom: 1.5rem;
   }
+  .card img {
+    width: 15%;
+  }
 
   /* Section4 */
 

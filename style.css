@@ -57,6 +57,10 @@ body {
   background: 100% url("Asset/m.bg.png");
 }
 
+#features {
+  z-index: -1;
+}
+
 /* mobile */
 @media (min-width: 20em) {
   html {
@@ -168,7 +172,6 @@ body {
     width: 12rem;
     height: 3.5rem;
     cursor: pointer;
-    pointer-events: auto;
   }
   .play-store__btn {
     margin-right: 1rem;

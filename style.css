@@ -958,14 +958,34 @@ body {
     font-size: 2.3rem;
   }
 }
-@media only screen and (min-width: 90em) {
+/* @media only screen and (min-width: 90em) {
   html {
     font-size: 50%;
   }
   .pc-container {
     max-width: 1440px;
   }
-}
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    height: 20rem;
+    width: 80%;
+  }
+
+  #team .pc-container {
+    margin-top: 2rem;
+  }
+  .team-box__person {
+    margin: 3rem 0;
+  }
+  .map-box {
+    width: 65%;
+  }
+} */
 @media only screen and (min-width: 118em) {
   html {
     font-size: 62.5%;

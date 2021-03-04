@@ -66,6 +66,9 @@ body {
   html {
     font-size: 35%;
   }
+  .swiper-pagination {
+    display: none;
+  }
   /* header */
   .header-bar {
     height: 4.5rem;
@@ -818,6 +821,9 @@ body {
     font-size: 40%;
   }
 
+  .swiper-pagination {
+    display: block;
+  }
   .swiper-pagination-bullet {
     background-color: #2f0b83c0;
   }

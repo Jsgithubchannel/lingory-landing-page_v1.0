@@ -715,7 +715,7 @@ body {
   }
 
   .video {
-    height: 70vh;
+    /* height: 70vh; */
     margin: 0 2rem 12rem 2rem;
   }
 

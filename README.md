@@ -11,6 +11,7 @@
 
 *Lingory App*
 (Google Play) https://play.google.com/store/apps/details?id=org.languageapp.lingory
+
 (App Store) https://apps.apple.com/app/id1556564572
 
 *Copyright 2021. Lingory. All Rights Reserved.*

@@ -1,7 +1,5 @@
 <h1>Lingory Landing Page</h1>
 
-*http://lingory.net/*
-
 **It has 5 sections**
 1. Main
 2. Features

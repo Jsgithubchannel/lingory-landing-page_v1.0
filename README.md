@@ -1,6 +1,6 @@
 <h1>Lingory Landing Page</h1>
 
-**It has 5 sections**
+**링고리 랜딩페이지 구버전입니다.**
 1. Main
 2. Features
 3. How To Use?
